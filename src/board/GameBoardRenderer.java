@@ -130,6 +130,7 @@ public class GameBoardRenderer extends JFrame implements MouseListener {
 
     @Override
     public void mouseClicked(MouseEvent e) {
+        //TODO: не успях да дебъгна проблема с фигурките които се визуализират ''бели'', а не със съответно зададения им цвят
             System.out.println("PLAYER 1:");
             System.out.println("Choose a square of the first two upper rows you'd like to place your figures in with the following order: " +
                     "Drunken Knight, Magic Cat, Reckless Canibal, Sand Turtle, Sofisticated Sam");
